@@ -1,0 +1,1091 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="icon" type="image/x-icon" href="assets/images/logo.ico">
+    <link rel="stylesheet" href="assets/css/admin/global.css" />
+    <link rel="stylesheet" href="assets/css/admin/index.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=MontserratAlternates:wght@700&display=swap" />
+    <link
+        rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+
+    <style>
+        html {
+            font-size: 62.5%;
+        }
+
+        @media (max-width: 998px) {
+            html {
+                font-size: 55%;
+            }
+        }
+
+        @media (max-width: 767px) {
+            html {
+                font-size: 45%;
+            }
+
+            .dasboard-inner {
+                left: 6.5rem;
+
+            }
+
+            .toggle-btn {
+                color: white;
+            }
+
+            .janet-v-grillo-parent {
+                margin-left: -10rem;
+            }
+
+        }
+
+
+
+        @media (max-width: 767px) {
+
+
+            .dasboard-child {
+                margin-top: 1rem;
+                border-radius: 1rem;
+            }
+
+
+        }
+
+        .dashboard1 {
+            top: 2rem;
+            font-size: 4.5rem;
+            color: var(--color-seagreen-100);
+        }
+
+        #logo {
+            margin: 1rem;
+        }
+
+        .dasboard-inner {
+            position: absolute;
+            top: 2rem;
+            border-radius: 4.7rem;
+            background-color: #eaeaea;
+            width: 20vw;
+            height: 5vh;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+
+
+        .search {
+
+            padding: .8rem;
+            font-size: 1.6rem;
+            color: #d0d0d0;
+            background-color: transparent;
+            outline: none;
+            border: none;
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 0.5rem;
+            transform: translateY(-50%);
+            font-size: 1.6rem;
+            color: #d0d0d0;
+            top: 2rem;
+        }
+
+        .janet-v-grillo-parent {
+
+            left: 8rem;
+        }
+
+        .janet-v-grillo {
+            font-size: 1.6rem;
+            color: #333;
+            /* Adjust the color as needed */
+        }
+
+        .jannet-grillogmailcom {
+            font-size: 1.4rem;
+            color: #555;
+            /* Adjust the color as needed */
+        }
+
+        .dasboard-child1 {
+            width: 4rem;
+            /* Adjust the width as needed */
+            height: 4rem;
+            /* Adjust the height as needed */
+            border-radius: 50%;
+            left: 8rem;
+
+        }
+
+        .dasboard-child {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            border-radius: 41px;
+            background: linear-gradient(270deg, #006838, #014a29);
+
+            height: auto;
+        }
+
+        .submenu {
+            display: none;
+            /* Hide submenu by default */
+            padding-left: 2rem;
+            /* Add some indentation for submenu items */
+        }
+
+        .nav-link:hover .submenu {
+            display: block;
+            /* Show submenu on hover */
+        }
+
+        .footer {
+            background-color: #f8f9fa;
+            /* Adjust background color as needed */
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .nav-side-menu {
+            overflow: auto;
+            font-family: var(--font-montserrat);
+            font-size: var(--font-size-sm);
+            font-weight: 200;
+            top: 0;
+            height: auto;
+            width: 20vw;
+            border-radius: 41px;
+            background: linear-gradient(270deg, #006838, #014a29);
+        }
+
+        .brand {
+
+            line-height: 50px;
+            display: block;
+            text-align: center;
+            font-size: 1.4rem;
+        }
+
+        ul {
+
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            line-height: 35px;
+            cursor: pointer;
+        }
+
+        .sub-menu li .active {
+            color: #fff;
+        }
+
+        .sub-menu li .active .a {
+            color: #f8f9fa;
+        }
+
+        li {
+            border: none;
+            line-height: 28px;
+        }
+
+        li:hover {
+            background-color: #044728;
+            transition: none;
+
+        }
+
+        li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            line-height: 35px;
+            cursor: pointer;
+            padding-left: 0;
+            transition: all 0.2s ease;
+        }
+
+        li.active {
+            border-left: 3px solid #d19b3d;
+            background-color: @side_menu_hover;
+        }
+
+        .sub-menu li.active {
+            color: @side_menu_font_color_active;
+        }
+
+        .sub-menu li.active a {
+            color: @side_menu_font_color_active;
+        }
+
+        li {
+            border: none;
+            line-height: 28px;
+            margin-left: 0;
+            padding: 1rem;
+        }
+
+        li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        li a i {
+            margin: 10px 15px;
+        }
+
+        li a:hover {
+            border-left: 3px solid #d19b3d;
+            transition: none;
+            text-decoration: none;
+            color: white;
+
+        }
+
+
+        .sub-menu li {
+            padding-left: 2rem;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        li .fa-chevron-down {
+            margin: 10px;
+            vertical-align: middle;
+            float: right;
+            transition: "transform 0.4s";
+
+        }
+
+        li.active .fa-chevron-down {
+            transform: rotateX(180deg);
+        }
+
+
+        @media (min-width: 767px) {
+            .nav-side-menu .menu-list .menu-content {
+                display: block;
+            }
+        }
+
+
+
+        .content {
+            padding: 2rem;
+        }
+
+        .content p {
+            color: var(--white);
+        }
+
+        table {
+            color: #eee;
+        }
+    </style>
+    
+    <style>
+        .box-container {
+            background-image: url("/assets/images/admin/mask-group@2x.png");
+            width: 68vw;
+            height: 40vh;
+            border-radius: 2rem;
+            left: 0;
+            padding: 1.5%;
+            object-fit: cover;
+        }
+
+        .box-container1 {
+            background-image: url("/assets/images/admin/mask-group@2x.png");
+            width: 100%;
+            height: 450px;
+            border-radius: 25px;
+            left: 0;
+            padding: 1.5%;
+            object-fit: cover;
+        }
+
+        /* Responsive styles for small screens (sm) */
+        @media (max-width: 767.98px) {
+            .box-container {
+                height: 50vh;
+                /* Adjust the height for small screens */
+            }
+
+            .box1 {
+                height: 100%;
+            }
+
+            .box1 {
+                width: inherit;
+                height: 105vh;
+            }
+
+            .box2 {
+                width: inherit;
+                height: 100vh;
+            }
+        }
+
+        .card-slider {
+            overflow: hidden;
+        }
+
+        .card-wrapper {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .card {
+            flex: 0 0 auto;
+            min-width: 200px;
+            /* Set a minimum width for the card */
+            margin-right: 1rem;
+            /* Adjust the margin between cards */
+        }
+
+        .book-card-slider {
+            overflow: hidden;
+        }
+
+        .book-card-wrapper {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .b-card {
+            flex: 0 0 auto;
+            min-width: 200px;
+            /* Set a minimum width for the card */
+            margin-right: 1rem;
+            /* Adjust the margin between cards */
+        }
+
+        /* Responsive styles for extra-small screens (xs) */
+        @media (max-width: 575.98px) {
+            .box-container {
+                width: 68vw !important;
+                height: 40vh !important;
+                border-radius: 4rem !important;
+            }
+
+            .box1 {
+                position: relative;
+                top: 3rem;
+                left: 2rem;
+                width: 65vw !important;
+                height: 31vh !important;
+                border-radius: 5rem !important;
+            }
+
+            .label .the-ONLY-all-in-one {
+
+                width: 48vw !important;
+                font-size: 1rem !important;
+                letter-spacing: 0 !important;
+                line-height: .2rem !important;
+                padding-left: 1rem !important;
+            }
+
+            .steps-container {
+
+            width: 70vw;
+            height: 60vh;
+            border-radius: 3rem;
+
+        }
+        }
+
+        .col1 {
+            grid-row: span 2;
+            /* Span both rows */
+        }
+
+        .box1 {
+
+            width: 65vw;
+            height: 32vh;
+            border-radius: 2rem;
+            margin-left: 0.3rem;
+            background-color: rgba(0, 104, 56, 0.12);
+            backdrop-filter: blur(15px);
+        }
+
+        .box2 {
+
+            width: inherit;
+            height: 100%;
+            border-radius: 20px;
+            margin-left: 0.3%;
+            background-color: rgba(0, 104, 56, 0.12);
+            backdrop-filter: blur(15px);
+        }
+
+        .steps-container {
+            background: linear-gradient(270deg, #00542d, #001009);
+            width: 70vw;
+            height: 60vh;
+            border-radius: 3rem;
+            left: 0rem;
+            padding: 2rem;
+            object-fit: cover;
+            margin-top: 1rem;
+        }
+
+        .row h4 {
+            font-family: 'Montserrat';
+            font-weight: 600;
+            color: #ffffff;
+            font-size: 3rem;
+            padding: 1.2rem;
+        }
+
+        .label {
+            width: 35vw;
+            height: 20rem;
+        }
+
+        .label .the-ONLY-all-in-one {
+            width: 70%;
+            top: 0;
+            left: 0;
+            font-family: 'Montserrat';
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 1.4rem;
+            letter-spacing: 0;
+            line-height: 2.3rem;
+            padding-left: 1rem;
+        }
+
+        .label .text-wrapper {
+            font-family: 'Montserrat';
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 1.2rem;
+            letter-spacing: 0;
+            line-height: 2rem;
+
+        }
+
+        .label .span {
+            font-family: 'Montserrat';
+            font-weight: 700;
+        }
+
+        .box {
+            width: 215px;
+            height: 45px;
+        }
+
+        .box .rectangle {
+            position: fixed;
+            width: 215px;
+            height: 45px;
+            top: 0;
+            left: 0;
+            border-radius: 46px;
+            border: 1px solid;
+            border-color: #ffffff;
+        }
+
+        .steps-to-renew-container {
+            position: relative;
+            font-size: 2.5rem;
+            line-height: 3rem;
+            display: inline-block;
+            font-family: "Montserrat";
+            color: #fff;
+            text-align: left;
+            width: 50vw;
+        }
+
+        .contrary-to-popular {
+
+            font-size: 1.4rem;
+            line-height: 2rem;
+            font-family: "Montserrat";
+            color: #fff;
+            text-align: left;
+            display: inline-block;
+            left: 0;
+            top:-4rem;
+
+        }
+
+        .dashboard-1-2-icon {
+            position: relative;
+            width: 70%;
+            height: 438px;
+            object-fit: cover;
+            top: -4rem;
+            left: 45%;
+        }
+
+        .group-icon {
+            top: -4rem;
+            left: 14rem;
+            width: 100%;
+            height: 274px;
+        }
+
+        .lesson-container {
+            padding: 2rem;
+            object-fit: cover;
+        }
+
+        .lessons {
+            font-size: 3rem;
+            line-height: 141%;
+            display: inline-block;
+            font-family: "Montserrat";
+            color: #006838;
+            text-align: left;
+            top: auto;
+            left: auto;
+        }
+
+        .access-over-50-container {
+            position: relative;
+            font-size: 1.4rem;
+            line-height: 2rem;
+            font-weight: 500;
+            font-family: "Montserrat";
+            color: #006838;
+            text-align: left;
+            display: inline-block;
+            top: auto;
+            margin-left: 10rem;
+        }
+
+        .lesson-card-container {
+            width: 80vw;
+            height: 40vh;
+            background-color: #00542d;
+            margin-top: 3rem;
+            object-fit: cover;
+
+        }
+
+        .join-our-community {
+            top: 10%;
+
+            font-size: 4rem;
+            line-height: 141%;
+            font-family: "Montserrat";
+            color: #fff;
+
+        }
+
+        .where-dreams-become {
+            font-size: 2rem;
+            line-height: 141%;
+            font-weight: 500;
+            font-family: Montserrat;
+            color: #fff;
+            text-align: center;
+            top: 25%;
+            left: 35%;
+        }
+
+        .join-an-amazing {
+            margin: 0;
+            line-height: 165.5%;
+        }
+
+        .blank-line {
+            margin: 0;
+            line-height: 147.5%;
+        }
+
+        .join-an-amazing-container {
+
+            font-size: 1.4rem;
+            font-family: "Montserrat";
+            color: #fff;
+            text-align: center;
+            display: inline-block;
+            width: 654px;
+            height: 39px;
+            top: 32%;
+            left: 18%;
+        }
+
+        .custom-grid {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            /* First column auto width, second column takes remaining space */
+            gap: 10rem;
+            /* Adjust the gap between columns if needed */
+        }
+    </style>
+
+
+    <title> Dashboard </title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 col-xs-2 col-md-3">
+                <img id="logo" class="img-fluid" src="assets/images/admin/group.svg" alt="Logo">
+            </div>
+            <div class="col-3 col-xs-3 col-md-3">
+                <b class="dashboard1">Dashboard</b>
+            </div>
+            <div class="col-7 col-xs-7 col-md-6">
+
+                <div class="dasboard-inner">
+
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" class="search" placeholder="Search">
+
+                    <div class="dropdown janet-v-grillo-parent">
+                        <a class="btn dropdown-toggle" href="#" role="button" id="profileDropdown"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img class="dasboard-child1" alt=""
+                                src="assets/images/admin/group-41@2x.png" />
+                            
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="profileDropdown">
+                            <div class="dropdown-item">
+                                <b>janet gurlevo</b>
+                                <div class="">admin@life.com</div>
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item"  id="logoutBtn">Logout</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 col-xs-4 col-md-3 ">
+                <nav class="nav-side-menu  navbar navbar-expand-md ">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-content"
+                        aria-controls="menu-content" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars fa-2x toggle-btn"></i>
+                    </button>
+                    <div class="menu-list">
+                        <ul id="menu-content" class="menu-content collapse out">
+                            <li>
+                                <a href="test">
+                                    <i class="fa fa-fw fa-calendar-o fa-lg"></i>Dashboard
+                                </a>
+                            </li>
+                            <li data-toggle="collapse" data-target="#steps" class="collapsed"
+                                data-parent="#menu-content">
+                                <a href="#">
+                                    <i class="fa fa-fw fa-gift fa-lg"></i>7 Steps
+                                    <i class="fa fa-chevron-down"></i>
+                                </a>
+                            </li>
+                            <ul class="sub-menu collapse" id="steps">
+                                                                <li class="active"><a href="steps/add">Add 7 Steps</a></li>
+                                                                <li><a href="steps">List 7 Steps</a></li>
+                            </ul>
+                            <li data-toggle="collapse" data-target="#community" class="collapsed"
+                                data-parent="#menu-content">
+                                <a href="#">
+                                    <i class="fa fa-fw fa-table fa-lg"></i>Community
+                                    <i class="fa fa-chevron-down"></i>
+                                </a>
+                            </li>
+                                                        <ul class="sub-menu collapse" id="community">
+                                <li><a href="dcommunity">User Join to Community</a></li>
+                                <li><a href="community/chat">Chat Box</a></li>
+                                <li><a href="community/forum">Forum</a></li>
+                                <li><a href="threads/add">Add Threads</a></li>
+
+                            </ul>
+                                                        <li data-toggle="collapse" data-target="#lessons" class="collapsed"
+                                data-parent="#menu-content">
+                                <a href="#">
+                                    <i class="fa fa-fw fa-tty fa-lg"></i>Lessons <i class="fa fa-chevron-down"></i>
+                                </a>
+                            </li>
+                            <ul class="sub-menu collapse" id="lessons">
+                                                                <li><a href="lesson/add">Add Lessons </a></li>
+                                                                <li><a href="lesson">List Lessons</a></li>
+                            </ul>
+                            <li data-toggle="collapse" data-target="#user" class="collapsed"
+                                data-parent="#menu-content">
+                                <a href="#">
+                                    <i class="fa fa-fw fa-users fa-lg"></i>Users <i class="fa fa-chevron-down"></i>
+                                </a>
+                            </li>
+                                                        <ul class="sub-menu collapse" id="user">
+                                <li><a href="allUsers">All Users </a></li>
+                                <li><a href="activeUsers">Active Users</a></li>
+                            </ul>
+                                                        <li data-toggle="collapse" data-target="#books" class="collapsed"
+                                data-parent="#menu-content">
+                                <a href="#">
+                                    <i class="fa fa-fw fa-book fa-lg"></i>Books <i class="fa fa-chevron-down"></i>
+                                </a>
+                            </li>
+                            <ul class="sub-menu collapse" id="books">
+                                                                <li><a href="book/add">Add Books</a></li>
+                                                                <li><a href="book">List Books</a></li>
+                                                            </ul>
+                            <li data-toggle="collapse" data-target="#payments" class="collapsed"
+                                data-parent="#menu-content">
+                                <a href="#">
+                                    <i class="fa fa-fw fa-money-check fa-lg"></i>Payments <i
+                                        class="fa fa-chevron-down"></i>
+                                </a>
+                            </li>
+                            <ul class="sub-menu collapse" id="payments">
+                                <li><a href="payments/platform">Platform Payments</a></li>
+                                <li><a href="payments/community">Community Payments</a></li>
+                                <li><a href="payments/marketplace">MarketPlace Payments</a>
+                                </li>
+                                <li><a href="payments/refund">Request For Refund</a></li>
+                            </ul>
+                            <li>
+                                <a href="" id="logoutBtn1">
+                                    <i class="fa fa-fw fa-sign-out-alt fa-lg"></i>Logout
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+                <div class="col-8 col-sm-8 col-md-9 ml-auto mb-auto">
+        <div class="box-container">
+            <div class="row box1">
+                <h4>Welcome to LifeAfterTragedy.org </h4>
+                <div class="label">
+                    <p class="the-ONLY-all-in-one">
+                        <span class="text-wrapper">The </span>
+                        <span class="text-wrapper">ONLY</span>
+                        <span class="text-wrapper">
+                            all-in-one platform that delivers you the ongoing education, accountability &amp; community you
+                            need to
+                            confidently create the personal &amp; professional life you desire. We believe everyone deserves
+                            to gain the
+                            tactics, habits &amp; skills to truly own their future.
+                        </span>
+                        <span class="span">Welcome to LifeAfterTragedy.org</span>
+                    </p>
+                </div>
+                <div class="box">
+                    <div class="rectangle">
+                        <div class="label">
+                            <div class="text-wrapper">How to Navigate</div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="steps-container">
+              <div class="row" style="height: 20vh">
+                <div class="col-8 col-xs-8 col-md-8">
+                    <b class="steps-to-renew-container">
+                        <p class="steps-to-renew">7 Steps to Renew </p>
+                        <p class="steps-to-renew">Your Life After a Tragedy</p>
+                    </b>
+                </div>
+                <div class="col-4 col-xs-4 col-md-4 ">
+                    <img class="img-fluid" style="height: 50vh;" src="assets/images/admin/JTumnP.png">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-8 col-xs-8 col-md-8">
+                    <div class="contrary-to-popular">Contrary to popular belief, Lorem Ipsum is not simply random
+                        text. It
+                        has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
+                        old.
+                        Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one
+                        of the
+                        more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the
+                        cites of
+                        the word in classical literature, discovered the undoubtable source.</div>
+
+                </div>
+              </div>
+
+        </div>
+
+        <div class="lesson-container">
+            <div class="row">
+                <div class="col-2 col-sm-2 col-md-2">
+                    <b class="lessons">Lessons</b>
+                </div>
+                <div class="offset-sm-2 offset-2 col-6 col-md-10 col-sm-6 access-over-50-container">
+                    Access over 50 deep dive Inner Circle trainings spanning over 4 years
+                    covering mindset, marketing, momentum, and mastery. It’s like having a “Netflix” of success,
+                    momentum, and growth.
+
+                    <div class="slider-controls">
+                        <h6>View All Lessons</h6>
+                        <div class="btn-group">
+                            <button class="btn btn-primary" id="prevBtn">&lt; </button>
+                            <button class="btn btn-primary" id="nextBtn"> &gt;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 5rem">
+                    <!-- Card slider container -->
+                    <div class="card-slider">
+                        <div class="card-wrapper">
+                            <!-- Cards go here -->
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="assets/images/admin/mask-group7@2x.png"
+                                        class="img img-thumbnail">
+                                    <h5 class="card-title"></h5>
+                                    <p class="card-text">Description goes here.</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="assets/images/admin/mask-group7@2x.png"
+                                        class="img img-thumbnail">
+                                    <h5 class="card-title"></h5>
+                                    <p class="card-text">Description goes here.</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="assets/images/admin/mask-group7@2x.png"
+                                        class="img img-thumbnail">
+                                    <h5 class="card-title"></h5>
+                                    <p class="card-text">Description goes here.</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="assets/images/admin/mask-group7@2x.png"
+                                        class="img img-thumbnail">
+                                    <h5 class="card-title"></h5>
+                                    <p class="card-text">Description goes here.</p>
+                                </div>
+                            </div>
+
+                            <!-- Repeat the above card structure for the other 19 cards -->
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+        <div class="box-container1 mt-4">
+            <div class="row box2">
+                <div class="offset-2 col-md-8 col-xs-10 col-sm-10">
+                    <b class="join-our-community">Join Our Community</b>
+                    <div class="where-dreams-become">Where Dreams Become a Reality</div>
+                    <div class="join-an-amazing-container">
+                        <p class="join-an-amazing">Join an amazing community of like-minded individuals and get the support you
+                            need on your journey to achieving your goals & owning your future. Never feel alone again!</p>
+                        <p class="blank-line">&nbsp;</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="lesson-container">
+            <div class="row">
+                <div class="col-2 col-sm-2 col-md-2">
+                    <b class="lessons">Books</b>
+                </div>
+                <div class=" col-12 col-md-10 col-sm-12 access-over-50-container">
+                    Access over 50 deep dive Inner Circle trainings spanning over 4 years
+                    covering mindset, marketing, momentum, and mastery. It’s like having a “Netflix” of success,
+                    momentum, and growth.
+
+                    <div class="slider-controls">
+                        <h6>View All Books</h6>
+                        <div class="btn-group">
+                            <button class="btn btn-primary" id="bookPrevBtn">&lt; </button>
+                            <button class="btn btn-primary" id="bookNextBtn"> &gt;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 5rem">
+                    <!-- Card slider container -->
+                    <div class="book-card-slider">
+                        <div class="book-card-wrapper">
+                            <!-- Cards go here -->
+                            <div class="b-card">
+                                <div class="card-body">
+                                    <img src="assets/images/admin/etlbook5mockupremovebgpreview-31@2x.png"
+                                        class="img img-thumbnail">
+                                    <h5 class="card-title"></h5>
+                                    <p class="card-text">Description goes here.</p>
+                                </div>
+                            </div>
+                            <div class="b-card">
+                                <div class="card-body">
+                                    <img src="assets/images/admin/etlbook5mockupremovebgpreview-31@2x.png"
+                                        class="img img-thumbnail">
+                                    <h5 class="card-title"></h5>
+                                    <p class="card-text">Description goes here.</p>
+                                </div>
+                            </div>
+                            <div class="b-card">
+                                <div class="card-body">
+                                    <img src="assets/images/admin/etlbook5mockupremovebgpreview-31@2x.png"
+                                        class="img img-thumbnail">
+                                    <h5 class="card-title"></h5>
+                                    <p class="card-text">Description goes here.</p>
+                                </div>
+                            </div>
+                            <div class="b-card">
+                                <div class="card-body">
+                                    <img src="assets/images/admin/etlbook5mockupremovebgpreview-31@2x.png"
+                                    class="img img-thumbnail">
+                                    <h5 class="card-title"></h5>
+                                    <p class="card-text">Description goes here.</p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="assets/images/admin/etlbook5mockupremovebgpreview-31@2x.png"
+                                    class="img img-thumbnail">
+                                    <h5 class="card-title"></h5>
+                                    <p class="card-text">Description goes here.</p>
+                                </div>
+                            </div>
+                            <!-- Repeat the above card structure for the other 19 cards -->
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+    </div>
+        </div>
+        <div class="footer">
+            <p class="mb-0 text-muted text-medium"> 2024 @ Creativegianttechnologies.com, LLC. All
+                rights reserved.
+            </p>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+     $(document).ready(function () {
+        var cardWrapper = $(".card-wrapper");
+        var cardWidth = $(".card").outerWidth();
+        var cardCount = $(".card").length;
+        var cardsPerSlide = 2; // Adjust the number of cards per slide as needed
+        var currentSlide = 0;
+
+        //book card
+        var bookCardWrapper = $(".book-card-wrapper");
+        var bookCardWidth = $(".b-card").outerWidth();
+        var bookCardCount = $(".b-card").length;
+
+        $("#nextBtn").on("click", function () {
+            if (currentSlide < cardCount / cardsPerSlide - 1) {
+                currentSlide++;
+                updateSlider();
+            }
+        });
+
+        $("#bookNextBtn").on("click", function () {
+            if (currentSlide < bookCardCount / cardsPerSlide - 1) {
+                currentSlide++;
+                updateBookSlider();
+            }
+        });
+
+        $("#prevBtn").on("click", function () {
+            if (currentSlide > 0) {
+                currentSlide--;
+                updateSlider();
+            }
+
+        });
+
+        $("#bookPrevBtn").on("click", function () {
+            if (currentSlide > 0) {
+                currentSlide--;
+                updateBookSlider();
+            }
+
+        });
+
+        function updateSlider() {
+            var translateValue = -currentSlide * (cardWidth * cardsPerSlide);
+            cardWrapper.css("transform", "translateX(" + translateValue + "px)");
+
+        }
+
+        function updateBookSlider() {
+            var translateValue = -currentSlide * (bookCardWidth * cardsPerSlide);
+            bookCardWrapper.css("transform", "translateX(" + translateValue + "px)");
+
+        }
+    });
+</script>
+    <script>
+        // When a dropdown is opened
+        $('#menu-content .collapse').on('show.bs.collapse', function(e) {
+            if ($('.menu-content .collapsing').length) {
+                e.preventDefault();
+                return;
+            }
+            $(this).prev().addClass('active');
+            $('#menu-content .sub-menu').collapse('hide');
+        });
+
+        // When a dropdown is closed
+        $('#menu-content .collapse').on('hide.bs.collapse', function(e) {
+            $(this).prev().removeClass('active');
+        });
+
+        $(document).ready(function() {
+            $('#logoutBtn').click(function() {
+                $.get('/logout', function(response) {
+                    window.location.replace('/signin');
+                });
+            });
+
+            $('#logoutBtn1').click(function() {
+                $.get('/logout', function(response) {
+                    window.location.replace('/signin');
+                });
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

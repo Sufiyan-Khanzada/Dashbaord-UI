@@ -1,0 +1,1092 @@
+
+.group-icon {
+  position: absolute;
+  height: 5.79%;
+  width: 11.6%;
+  top: 0.57%;
+  right: 85%;
+  bottom: 93.64%;
+  left: 3.4%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.dasboard-item {
+  position: absolute;
+  top: 194.7px;
+  left: 16px;
+  border-radius: 23.5px;
+  background-color: #044728;
+  width: 234px;
+  height: 47px;
+}
+.dashboard {
+  position: absolute;
+  top: 205.7px;
+  left: 37px;
+  font-size: var(--font-size-lg);
+  line-height: 141%;
+  font-family: var(--font-montserrat-alternates);
+}
+.community,
+.lessons,
+.steps,
+.users {
+  position: absolute;
+  top: 259.7px;
+  left: 37px;
+  line-height: 141%;
+}
+.community,
+.lessons,
+.users {
+  top: 313.7px;
+}
+.lessons,
+.users {
+  top: 367.7px;
+}
+.users {
+  top: 421.7px;
+}
+.books,
+
+.log-out,
+.payment-records {
+  position: absolute;
+  top: 475.7px;
+  left: 37px;
+  line-height: 141%;
+}
+
+.log-out,
+.payment-records {
+  top: 529.7px;
+}
+
+.log-out {
+  top: 583.7px;
+}
+
+
+
+.vector-icon {
+  position: absolute;
+  height: 0.74%;
+  width: 1.25%;
+  top: 1.99%;
+  right: 56.74%;
+  bottom: 97.27%;
+  left: 42.01%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+
+
+
+.mask-group-icon {
+  top: 132.7px;
+  left: 303px;
+  width: 1099px;
+  height: 244px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 139.7px;
+  left: 311px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-seagreen-200);
+  backdrop-filter: blur(15px);
+  width: 1081px;
+  height: 230px;
+}
+.welcome-to-lifeaftertradgycom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 141%;
+  font-weight: 600;
+  display: inline-block;
+  width: 592px;
+  height: 45.3px;
+}
+.only {
+  text-transform: lowercase;
+}
+.welcome-to-lifeaftertradgycom1 {
+  font-family: var(--font-montserrat);
+}
+.the-only-all-in-one-container {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  font-size: var(--font-size-sm);
+  line-height: 165.5%;
+  display: inline-block;
+  width: 611px;
+  height: 95px;
+}
+.welcome-to-lifeaftertradgycom-parent {
+  position: absolute;
+  top: 182.7px;
+  left: 358px;
+  width: 611px;
+  height: 145px;
+  font-size: 30px;
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-27xl);
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  width: 215.02px;
+  height: 44.63px;
+}
+.how-to-navigate {
+  position: absolute;
+  top: 12px;
+  left: 45px;
+  line-height: 141%;
+  display: inline-block;
+  width: 125px;
+  height: 21px;
+}
+.group-item,
+.rectangle-parent {
+  position: absolute;
+  top: 198.7px;
+  left: 1132px;
+  width: 215.02px;
+  height: 44.63px;
+}
+.group-item {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-27xl);
+  background-color: var(--white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contact-support {
+  position: absolute;
+  top: 12px;
+  left: 41px;
+  line-height: 141%;
+  display: inline-block;
+  width: 133px;
+  height: 21px;
+}
+.rectangle-group {
+  position: absolute;
+  top: 263.7px;
+  left: 1132px;
+  width: 215.02px;
+  height: 44.63px;
+  color: #01361e;
+}
+.dashboard-1-2-icon,
+.rectangle-icon {
+  position: absolute;
+  top: 413.7px;
+  height: 438px;
+}
+.rectangle-icon {
+  left: 303px;
+  border-radius: var(--br-5xl);
+  width: 1099px;
+}
+.dashboard-1-2-icon {
+  left: 987px;
+  width: 399px;
+  object-fit: cover;
+}
+.dasboard-child2 {
+  position: absolute;
+  top: 373.7px;
+  left: 1166px;
+  width: 274px;
+  height: 274px;
+}
+
+.group-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-27xl);
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  width: 167px;
+  height: 34.67px;
+}
+.more-details {
+  position: absolute;
+  top: 8px;
+  left: 39px;
+  line-height: 141%;
+  display: inline-block;
+  width: 90px;
+  height: 17px;
+}
+.contrary-to-popular,
+.rectangle-container {
+  position: absolute;
+  top: 293px;
+  left: 0;
+  width: 167px;
+  height: 34.67px;
+}
+.contrary-to-popular {
+  top: 115px;
+  line-height: 165.5%;
+  display: inline-block;
+  width: 557px;
+  height: 135px;
+}
+.lessons1,
+.steps-to-renew-your-life-after-parent {
+  position: absolute;
+  top: 468.7px;
+  left: 358px;
+  width: 557px;
+  height: 327.67px;
+  font-size: var(--font-size-sm);
+}
+.lessons1 {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-16xl);
+  line-height: 141%;
+  display: inline-block;
+  width: 149px;
+  height: 37px;
+}
+.access-over-50-container,
+.view-all-lessons-container {
+  position: absolute;
+  top: 66px;
+  left: 0;
+  line-height: 165.5%;
+  font-weight: 500;
+  display: inline-block;
+  width: 727px;
+  height: 36px;
+}
+.view-all-lessons-container {
+  top: 79px;
+  left: 906px;
+  line-height: 141%;
+  font-weight: 600;
+  width: 124px;
+  height: 17px;
+}
+.group-child1,
+.group-child2 {
+  position: absolute;
+  top: 76px;
+  border-radius: var(--br-9xs);
+  width: 26px;
+  height: 26px;
+}
+.group-child1 {
+  left: 1073px;
+  border: 1px solid var(--color-seagreen-100);
+  box-sizing: border-box;
+}
+.group-child2 {
+  left: 1039px;
+  background-color: var(--color-seagreen-100);
+}
+.arrow-4-stroke,
+.arrow-4-stroke1,
+.lessons-parent {
+  position: absolute;
+  top: 85px;
+  left: 1049px;
+  width: 5px;
+  height: 8px;
+}
+.arrow-4-stroke1,
+.lessons-parent {
+  left: 1084px;
+}
+.lessons-parent {
+  top: 891.7px;
+  left: 303px;
+  width: 1099px;
+  height: 102px;
+  font-size: var(--font-size-sm);
+  color: var(--color-seagreen-100);
+}
+.books1,
+.view-all-books-container {
+  position: absolute;
+  line-height: 141%;
+  display: inline-block;
+}
+.books1 {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-16xl);
+  width: 120px;
+  height: 37px;
+}
+.view-all-books-container {
+  top: 79px;
+  left: 917px;
+  font-weight: 600;
+  text-align: right;
+  width: 105px;
+  height: 17px;
+}
+.books-parent {
+  position: absolute;
+  top: 1831.7px;
+  left: 303px;
+  width: 1099px;
+  height: 102px;
+  font-size: var(--font-size-sm);
+  color: var(--color-seagreen-100);
+}
+.mask-group-icon1 {
+  position: absolute;
+  top: 82px;
+  left: 0;
+  width: 1099px;
+  height: 377px;
+  object-fit: cover;
+}
+.group-child5 {
+  position: absolute;
+  top: 93px;
+  left: 8px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-seagreen-200);
+  backdrop-filter: blur(15px);
+  width: 1081px;
+  height: 355px;
+}
+.group-child6 {
+  position: absolute;
+  top: 0;
+  left: 927px;
+  width: 210px;
+  height: 274px;
+}
+.join-our-community,
+.where-dreams-become {
+  position: absolute;
+  bottom: 194px;
+  left: 109px;
+  font-size: var(--font-size-21xl);
+  line-height: 141%;
+}
+.where-dreams-become {
+  bottom: 160px;
+  left: 159px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+}
+.join-an-amazing {
+  margin: 0;
+  line-height: 165.5%;
+}
+.blank-line {
+  margin: 0;
+  line-height: 147.5%;
+}
+.join-an-amazing-container {
+  position: absolute;
+  bottom: 99px;
+  left: 0;
+  display: inline-block;
+  width: 654px;
+  height: 39px;
+}
+.group-child7 {
+  position: absolute;
+  bottom: -44px;
+  left: 0;
+  border-radius: 22px;
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  width: 211px;
+  height: 44px;
+}
+.join-now {
+  position: absolute;
+  bottom: 13px;
+  left: 64px;
+  line-height: 141%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 84px;
+  height: 17px;
+}
+.group-div,
+.join-our-community-parent {
+  position: absolute;
+  bottom: 0;
+  left: 222px;
+  width: 211px;
+  height: 44px;
+}
+.join-our-community-parent {
+  bottom: 67px;
+  width: 654px;
+  height: 250px;
+}
+.mask-group-parent {
+  position: absolute;
+  top: 1331.7px;
+  left: 303px;
+  width: 1411px;
+  height: 459px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
+.group-child8 {
+  position: absolute;
+  top: 260px;
+  left: 0;
+  background-color: var(--white);
+  width: 270px;
+  height: 83px;
+}
+.book {
+  position: absolute;
+  top: 275px;
+  left: 12px;
+  display: flex;
+  align-items: center;
+  width: 64px;
+  height: 18px;
+}
+.from-32000-cad,
+.from-32000-cad-wrapper {
+  position: absolute;
+  width: 138px;
+  height: 18px;
+}
+.from-32000-cad {
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.from-32000-cad-wrapper {
+  top: 310px;
+  left: 13px;
+  font-size: var(--font-size-sm);
+}
+.instance-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke-100);
+}
+.rectangle-parent2 {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 269px;
+  height: 259px;
+}
+.sale {
+  position: relative;
+}
+.sale-wrapper {
+  position: absolute;
+  top: 224.46px;
+  left: 13px;
+  border-radius: 45.59px;
+  background-color: var(--color-seagreen-100);
+  width: 52.95px;
+  height: 26.01px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-lg);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  color: var(--white);
+  font-family: var(--font-inter);
+}
+.etlbook5mockup-removebg-pre-icon {
+  position: absolute;
+  top: 2.63px;
+  left: 0;
+  width: 115.69px;
+  height: 155.13px;
+  object-fit: cover;
+}
+.etlbook5mockup-removebg-pre-icon1,
+.etlbook5mockup-removebg-pre-icon2 {
+  position: absolute;
+  top: 0;
+  left: 111.38px;
+  width: 115.69px;
+  height: 155.13px;
+  object-fit: cover;
+}
+.etlbook5mockup-removebg-pre-icon2 {
+  top: 13.15px;
+  left: 55.69px;
+}
+.etlbook5mockup-removebg-pre-parent {
+  position: absolute;
+  top: 47px;
+  left: 21px;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.1);
+  width: 227.07px;
+  height: 168.28px;
+}
+.group-child9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid var(--color-seagreen-100);
+  box-sizing: border-box;
+  width: 270px;
+  height: 343px;
+}
+.rectangle-parent1,
+.rectangle-parent3 {
+  position: absolute;
+  top: 1971.7px;
+  left: 1224px;
+  width: 270px;
+  height: 343px;
+  font-size: var(--font-size-xl);
+  color: var(--color-seagreen-100);
+}
+.rectangle-parent3 {
+  left: 917px;
+}
+.group-child12 {
+  position: absolute;
+  top: 260px;
+  left: 0;
+  background-color: var(--color-seagreen-100);
+  width: 270px;
+  height: 83px;
+}
+.trouser-0-12 {
+  position: absolute;
+  height: 100.36%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: -0.36%;
+  left: 0;
+}
+.sale-frame {
+  position: absolute;
+  top: 224.46px;
+  left: 13px;
+  border-radius: 45.59px;
+  background-color: var(--color-seagreen-100);
+  width: 52.95px;
+  height: 26.01px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-lg);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-inter);
+}
+.rectangle-parent5 {
+  position: absolute;
+  top: 1971.7px;
+  left: 610px;
+  box-shadow: 0 7px 6px rgba(0, 0, 0, 0.17);
+  width: 270px;
+  height: 343px;
+  font-size: var(--font-size-xl);
+}
+.rectangle {
+  position: absolute;
+  height: 100.36%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: -0.36%;
+  left: 0;
+  display: none;
+}
+.rectangle-parent7 {
+  position: absolute;
+  top: 1971.7px;
+  left: 303px;
+  width: 270px;
+  height: 343px;
+  font-size: var(--font-size-xl);
+  color: var(--color-seagreen-100);
+}
+.creativegianttechnologiescom {
+  position: absolute;
+  top: 2408px;
+  left: calc(50% - 109px);
+  font-size: var(--font-size-sm);
+  line-height: 141%;
+  color: #888;
+}
+.arrow-4-stroke4 {
+  position: absolute;
+  top: 42.7px;
+  left: 1356px;
+  width: 15px;
+  height: 8px;
+}
+.arrow-4-stroke5,
+.arrow-4-stroke6,
+.arrow-4-stroke7 {
+  position: absolute;
+  top: 267.7px;
+  left: 216px;
+  width: 11px;
+  height: 6px;
+}
+.arrow-4-stroke6,
+.arrow-4-stroke7 {
+  top: 429.7px;
+}
+.arrow-4-stroke7 {
+  top: 483.7px;
+}
+.arrow-4-stroke10,
+.arrow-4-stroke8,
+.arrow-4-stroke9 {
+  position: absolute;
+  top: 537.7px;
+  left: 216px;
+  width: 11px;
+  height: 6px;
+}
+.arrow-4-stroke10,
+.arrow-4-stroke9 {
+  top: 375.7px;
+}
+.arrow-4-stroke10 {
+  top: 321.7px;
+}
+.mask-group-icon2 {
+  position: absolute;
+  height: 100%;
+  width: 99.9%;
+  top: 0;
+  right: 0.1%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.knowledge-of-earth,
+.lessons2,
+.start-course {
+  position: absolute;
+  height: 12.3%;
+  width: 83.73%;
+  top: 59.3%;
+  left: 4.37%;
+  line-height: 141%;
+  font-weight: 600;
+  display: inline-block;
+}
+.lessons2,
+.start-course {
+  height: 4.1%;
+  width: 27.78%;
+  top: 91.47%;
+  left: 11.11%;
+  font-size: var(--font-size-3xs);
+}
+.lessons2 {
+  height: 3.15%;
+  width: 18.25%;
+  top: 92.1%;
+  left: 81.75%;
+  font-size: var(--font-size-5xs);
+  font-weight: 500;
+}
+.mask-group-icon3 {
+  position: absolute;
+  height: 52.62%;
+  width: 92.15%;
+  top: 2.77%;
+  right: 3.97%;
+  bottom: 44.62%;
+  left: 3.87%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.group-icon1,
+.if-you-want {
+  position: absolute;
+  left: 4.65%;
+}
+.group-icon1 {
+  height: 3.69%;
+  width: 4.65%;
+  top: 91.69%;
+  right: 90.71%;
+  bottom: 4.61%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.if-you-want {
+  height: 13.23%;
+  width: 86.73%;
+  top: 75.08%;
+  font-size: var(--font-size-7xs);
+  line-height: 165.5%;
+  display: inline-block;
+}
+.mask-group-group,
+.mask-group-icon4 {
+  position: absolute;
+  height: 100%;
+  width: 13.62%;
+  top: 0;
+  right: 86.38%;
+  bottom: 0;
+  left: 0;
+}
+.mask-group-icon4 {
+  width: 100%;
+  right: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.knowledge-of-earth1,
+.lessons3,
+.start-course1 {
+  position: absolute;
+  height: 12.3%;
+  width: 85.01%;
+  top: 59.3%;
+  left: 4.22%;
+  line-height: 141%;
+  font-weight: 600;
+  display: inline-block;
+}
+.lessons3,
+.start-course1 {
+  height: 4.1%;
+  width: 28.2%;
+  top: 91.47%;
+  left: 11.37%;
+  font-size: var(--font-size-3xs);
+}
+.lessons3 {
+  height: 3.15%;
+  width: 18.27%;
+  top: 92.1%;
+  left: 81.68%;
+  font-size: var(--font-size-5xs);
+  font-weight: 500;
+}
+.mask-group-icon5 {
+  position: absolute;
+  height: 52.62%;
+  width: 92.25%;
+  top: 2.77%;
+  right: 3.88%;
+  bottom: 44.62%;
+  left: 3.88%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.group-icon2,
+.if-you-want1 {
+  position: absolute;
+  left: 4.65%;
+}
+.group-icon2 {
+  height: 3.69%;
+  width: 4.65%;
+  top: 91.69%;
+  right: 90.7%;
+  bottom: 4.61%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.if-you-want1 {
+  height: 13.23%;
+  width: 86.82%;
+  top: 75.08%;
+  font-size: var(--font-size-7xs);
+  line-height: 165.5%;
+  display: inline-block;
+}
+.mask-group-container {
+  position: absolute;
+  height: 100%;
+  width: 13.61%;
+  top: 0;
+  right: 71.99%;
+  bottom: 0;
+  left: 14.4%;
+}
+.knowledge-of-earth2,
+.lessons4,
+.start-course2 {
+  position: absolute;
+  height: 12.3%;
+  width: 83.82%;
+  top: 59.3%;
+  left: 4.07%;
+  line-height: 141%;
+  font-weight: 600;
+  display: inline-block;
+}
+.lessons4,
+.start-course2 {
+  height: 4.1%;
+  width: 29.4%;
+  top: 91.47%;
+  left: 11.22%;
+  font-size: var(--font-size-3xs);
+}
+.lessons4 {
+  height: 3.15%;
+  width: 17.88%;
+  top: 92.1%;
+  left: 81.93%;
+  font-size: var(--font-size-5xs);
+  font-weight: 500;
+}
+.mask-group-icon8,
+.mask-group-parent1 {
+  position: absolute;
+  height: 100%;
+  width: 13.61%;
+  top: 0;
+  right: 57.59%;
+  bottom: 0;
+  left: 28.8%;
+}
+.mask-group-icon8 {
+  width: 99.95%;
+  right: 0.05%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.knowledge-of-earth3,
+.lessons5,
+.start-course3 {
+  position: absolute;
+  height: 12.3%;
+  width: 84.96%;
+  top: 59.3%;
+  left: 4.32%;
+  line-height: 141%;
+  font-weight: 600;
+  display: inline-block;
+}
+.lessons5,
+.start-course3 {
+  height: 4.1%;
+  width: 30.17%;
+  top: 91.47%;
+  left: 11.07%;
+  font-size: var(--font-size-3xs);
+}
+.lessons5 {
+  height: 3.15%;
+  width: 18.26%;
+  top: 92.1%;
+  left: 81.74%;
+  font-size: var(--font-size-5xs);
+  font-weight: 500;
+}
+.mask-group-icon9 {
+  position: absolute;
+  height: 52.62%;
+  width: 92.2%;
+  top: 2.77%;
+  right: 3.93%;
+  bottom: 44.62%;
+  left: 3.87%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.if-you-want3 {
+  position: absolute;
+  height: 13.23%;
+  width: 86.78%;
+  top: 75.08%;
+  left: 4.65%;
+  font-size: var(--font-size-7xs);
+  line-height: 165.5%;
+  display: inline-block;
+}
+.mask-group-parent2 {
+  position: absolute;
+  height: 100%;
+  width: 13.61%;
+  top: 0;
+  right: 43.19%;
+  bottom: 0;
+  left: 43.2%;
+}
+.knowledge-of-earth4,
+.lessons6,
+.start-course4 {
+  position: absolute;
+  height: 12.3%;
+  width: 85.01%;
+  top: 59.3%;
+  left: 4.17%;
+  line-height: 141%;
+  font-weight: 600;
+  display: inline-block;
+}
+.lessons6,
+.start-course4 {
+  height: 4.1%;
+  width: 28.6%;
+  top: 91.47%;
+  left: 11.32%;
+  font-size: var(--font-size-3xs);
+}
+.lessons6 {
+  height: 3.15%;
+  width: 18.27%;
+  top: 92.1%;
+  left: 81.63%;
+  font-size: var(--font-size-5xs);
+  font-weight: 500;
+}
+.mask-group-parent3 {
+  position: absolute;
+  height: 100%;
+  width: 13.61%;
+  top: 0;
+  right: 28.8%;
+  bottom: 0;
+  left: 57.59%;
+}
+.knowledge-of-earth5,
+.lessons7,
+.start-course5 {
+  position: absolute;
+  height: 12.3%;
+  width: 83.82%;
+  top: 59.3%;
+  left: 4.42%;
+  line-height: 141%;
+  font-weight: 600;
+  display: inline-block;
+}
+.lessons7,
+.start-course5 {
+  height: 4.1%;
+  width: 30.59%;
+  top: 91.47%;
+  left: 11.17%;
+  font-size: var(--font-size-3xs);
+}
+.lessons7 {
+  height: 3.15%;
+  width: 15.89%;
+  top: 92.1%;
+  left: 81.88%;
+  font-size: var(--font-size-5xs);
+  font-weight: 500;
+}
+.mask-group-parent4 {
+  position: absolute;
+  height: 100%;
+  width: 13.61%;
+  top: 0;
+  right: 14.4%;
+  bottom: 0;
+  left: 71.99%;
+}
+.knowledge-of-earth6,
+.lessons8,
+.start-course6 {
+  position: absolute;
+  height: 12.31%;
+  width: 89.15%;
+  top: 59.38%;
+  left: 4.26%;
+  line-height: 141%;
+  font-weight: 600;
+  display: inline-block;
+}
+.lessons8,
+.start-course6 {
+  height: 4.31%;
+  width: 24.42%;
+  top: 91.38%;
+  left: 11.24%;
+  font-size: var(--font-size-3xs);
+}
+.lessons8 {
+  height: 3.38%;
+  width: 14.34%;
+  top: 92%;
+  left: 81.78%;
+  font-size: var(--font-size-5xs);
+  font-weight: 500;
+}
+.group-parent,
+.mask-group-parent5 {
+  position: absolute;
+  height: 100%;
+  width: 13.61%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 86.39%;
+}
+.group-parent {
+  height: 12.98%;
+  width: 128.47%;
+  top: 42.66%;
+  right: -49.51%;
+  bottom: 44.36%;
+  left: 21.04%;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+}
+.dasboard {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 2444px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--white);
+  font-family: var(--font-montserrat);
+}
